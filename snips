@@ -1,0 +1,5 @@
+# unicode A-Z capital letter and positional indicator
+for i in range (65,91):
+		print("Position in unicode =",i ,chr(i))
+    
+    
