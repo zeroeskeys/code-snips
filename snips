@@ -1,5 +1,37 @@
+$
 # unicode A-Z capital letter and positional indicator
+# .py file type, REPL or IDLE
 for i in range (65,91):
 		print("Position in unicode =",i ,chr(i))
     
-    
+
+$
+# Powershell port scanner
+# run in powershell
+1..1024 | % {echo ((new-object Net.Sockets.TcpClient).Connect(“10.10.10.10”,$_)) “Port $_ is open” } 2>$null
+
+
+$
+# Powershell ping sweeper
+# run in powershell
+1..255 | % {ping -n 1 -w 100 192.168.1.$_ | sls ttl}
+
+
+$
+# CMD ping sweeper
+# run from CMD prompt
+for /L %i in (1,1,255) do @ping -n 1 -w 25 10.11.11.%i | FIND “TTL”
+
+
+$
+# BASH script for interactive ping sweeper
+# Create as bash schript, chmod 700 or lower?
+
+#!/bin/bash 
+read -p "Enter Ping Scan IP as first three of dotted quad including the final dot: " IP_ADDRESS
+trap "exit" INT # Allows ^c to exit the loop
+for ip in $(seq 1 254); do ping -c 1 $IP_ADDRESS$ip>/dev/null; [ $? -eq 0 ] && echo "$IP_ADDRESS$ip UP" || : ; done
+
+
+$
+
