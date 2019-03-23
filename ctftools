@@ -1,0 +1,23 @@
+freq.py 
+## Tool to analyse DNS DGA and spot odd strings :: https://github.com/sans-blue-team/freq.py
+
+RsaCtfTool.py
+## Tool for breaking weak RSA cypher / keys, setup and multiple flicks needed :: ?/? 
+
+Multitools-Blueteam
+## multiple tools for blue team :: https://github.com/sans-blue-team
+
+PingCastle
+## domain "quick win" tool, evaluate a variety of domain based weaknesses with queries :: https://www.pingcastle.com/methodology/advanced/#compromise
+
+Lepide
+## audit AD :: https://www.lepide.com/lepideauditor/active-directory-auditing.html
+
+Empire
+## Empire... its empire. Agent callback for phishing and more :: https://github.com/EmpireProject/Empire
+
+ManageEngine
+## AD Audit tool :: https://www.manageengine.com/products/active-directory-audit/?MEtab
+
+Loki.py
+## Auditing :: https://github.com/Neo23x0/Loki/blob/master/loki.py
