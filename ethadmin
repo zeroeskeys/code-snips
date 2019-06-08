@@ -1,0 +1,5 @@
+@echo off 
+netsh interface set interface Eth0 admin=disable
+@echo Resetting Eth0 now, please wait
+@timeout 5
+netsh interface set interface Eth0 admin=enable
