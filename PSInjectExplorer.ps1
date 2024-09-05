@@ -1,6 +1,5 @@
 # Chat GPT created example for raw PS injecting shellcode to explorer.exe 
 # May be usable in ise to demonstrate in memory shellcode inject
-# https://chatgpt.com/share/d79208ed-3291-4f9f-a3b8-ecd52cfa08eb
 
 # Define the shellcode (Example: 64-bit MessageBox shellcode)
 # Replace this with your own shellcode (hex-encoded).
